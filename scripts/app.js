@@ -26,10 +26,10 @@ angular
             .when('/', {
                 templateUrl: 'views/main.html',
                 controller: 'MainCtrl',
-                controllerAs: 'main'
+                controllerAs: './main'
             })
             .when('/404', {
-                templateUrl: 'views/404.html'
+                templateUrl: './views/404.html'
             })
             .otherwise({
                 redirectTo: '/'
