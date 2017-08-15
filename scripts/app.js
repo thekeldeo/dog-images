@@ -23,7 +23,7 @@ angular
     ])
     .config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
         $routeProvider
-            .when('/dog-images', {
+            .when('/', {
                 templateUrl: 'views/main.html',
                 controller: 'MainCtrl',
                 controllerAs: 'main'
@@ -32,7 +32,7 @@ angular
                 templateUrl: 'views/404.html'
             })
             .otherwise({
-                redirectTo: '/dog-images'
+                redirectTo: '/'
             });
 
         $locationProvider.html5Mode({
