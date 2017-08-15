@@ -32,7 +32,7 @@ angular
                 templateUrl: 'views/404.html'
             })
             .otherwise({
-                redirectTo: '/404'
+                redirectTo: '/dog-images'
             });
 
         $locationProvider.html5Mode({
