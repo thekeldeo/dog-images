@@ -23,7 +23,7 @@ angular
     ])
     .config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
         $routeProvider
-            .when('/', {
+            .when('/dog-images', {
                 templateUrl: 'views/main.html',
                 controller: 'MainCtrl',
                 controllerAs: 'main'
