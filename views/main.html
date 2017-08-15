@@ -1,0 +1,5 @@
+<div id="main" scrolly="showMore()">
+    <article ng-click="changeImage(item)" class="thumb" style="background: url('{{item.image}}') center center no-repeat" ng-repeat="item in listDog | filter: filter">
+        <h2>{{item.name}}</h2>
+    </article>
+</div>

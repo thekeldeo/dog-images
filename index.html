@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Dog Images</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body ng-app="dogApp" ng-controller="indexCtrl">
+
+		<!-- Wrapper -->
+        <div id="wrapper">
+
+            <!-- Header -->
+            <header id="header">
+                <h1><a href="https://facebook.com/secret.i.cant.tell.5" target="_blank">Dog Images by <strong>SecretSword</strong></a></h1>
+                <input type="text" ng-model="filter" placeholder="Search dog">
+                <nav>
+                    <ul>
+                        <li><a href="#footer" class="icon fa-info-circle">About</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <!-- Main -->
+            <div ng-view="" class="">
+
+            </div>
+
+
+            <!-- Footer -->
+            <footer id="footer" class="panel">
+                    <div class="inner split">
+                        <div>
+                            <section>
+                                <h2>Ảnh của tất cả các loài chó</h2>
+                                <p>Click vào để thay đổi ảnh một loài bất kỳ.</p>
+                            </section>
+                            <p class="copyright">
+                                &copy; 2017. : By SecretSword.
+                            </p>
+                        </div>
+                        <div>
+                            <section>
+                                <h2>Follow me on ...</h2>
+                                <ul class="icons">
+                                    <li><a href="https://thekeldeo.github.io" class="icon fa-pencil"><span class="label">Blog</span></a></li>
+                                    <li><a href="https://www.instagram.com/congkhanht" target="_blank" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                                    <li><a href="https://github.com/thekeldeo" target="_blank" class="icon fa-github"><span class="label">Github</span></a></li>
+                                    <li><a href="https://www.facebook.com/secret.i.cant.tell.5" target="_blank" class="icon fa-facebook-square"><span class="label">facebook</span></a></li>
+                                </ul>
+                            </section>
+                        </div>
+                    </div>
+                </footer>
+
+        </div>
+
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/angular/angular.js"></script>
+        <!-- Scripts -->
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/angular-animate/angular-animate.min.js"></script>
+        <script src="bower_components/angular-aria/angular-aria.min.js"></script>
+        <script src="bower_components/angular-cookies/angular-cookies.min.js"></script>
+        <script src="bower_components/angular-messages/angular-messages.min.js"></script>
+        <script src="bower_components/angular-resource/angular-resource.min.js"></script>
+        <script src="bower_components/angular-route/angular-route.min.js"></script>
+        <script src="bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+        <script src="bower_components/angular-touch/angular-touch.min.js"></script>
+        <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        <script type="text/javascript" src="scripts/app.js"></script>
+        <script type="text/javascript" src="scripts/controllers/main.js"></script>
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.poptrox.min.js"></script>
+        <script src="assets/js/skel.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+        <script src="assets/js/main.js"></script>
+
+	</body>
+</html>

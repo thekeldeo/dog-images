@@ -1,0 +1,40 @@
+{
+  "name": "web-app-fullstack",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular": "1.6.2",
+    "bootstrap": "^3.2.0",
+    "angular-animate": "1.6.2",
+    "angular-aria": "1.5.9",
+    "angular-cookies": "^1.6.3",
+    "angular-messages": "^1.4.0",
+    "angular-resource": "^1.4.0",
+    "angular-route": "^1.4.0",
+    "angular-sanitize": "^1.4.0",
+    "angular-touch": "^1.4.0",
+    "angular-slick": "^0.2.1",
+    "angular-inline-text-editor": "^0.3.23",
+    "ngBootbox": "^0.1.4",
+    "angular-fancybox-plus": "^1.0.3",
+    "angular-bootstrap": "^2.4.0",
+    "angular-bootstrap-lightbox": "^0.12.0",
+    "ngstorage": "^0.3.11"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.4.0"
+  },
+  "appPath": "app",
+  "moduleName": "webAppFullstackApp",
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "less/bootstrap.less",
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    }
+  },
+  "resolutions": {
+    "angular": "1.6.2"
+  }
+}
